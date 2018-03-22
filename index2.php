@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Garden</title>
+		<title>Modernize</title>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,800%7CLato:300,400,700" rel="stylesheet" type="text/css">
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -26,16 +26,9 @@
 		<?php
 			require_once "includes/header2.php";
 			require_once "includes/banner-principal2.php";
-			require_once "includes/about.php";
-			require_once "includes/work.php";
-			require_once "includes/blog.php";
-			require_once "includes/contagem.php";
-			require_once "includes/logos-cliente.php";
-			require_once "includes/project.php";
-			require_once "includes/project_sec.php";
-			require_once "includes/service.php";
-			require_once "includes/team.php";
-			require_once "includes/testimonial.php";
+			require_once "includes/sobre-nos.php";
+			require_once "includes/nossos-parceiros.php";
+			require_once "includes/nosso-processo.php";
 			require_once "includes/footer2.php";
 		?>
 		<script type="text/javascript" src="assets/js/jquery.min.js"></script>

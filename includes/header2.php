@@ -24,7 +24,7 @@
 					<div class="top_loction pull-left">
 						<ul>
 							<li>
-								<a href="#!"><i class="fa fa-map-marker"></i> 123 Main Street, St. NW Ste </a>
+								<a href="#!"><i class="fa fa-map-marker"></i> Rua Dr. Roberto Barrozo, 1588 Bom Retiro Curitiba</a>
 							</li>
 							<li>
 								<a href="mailto:Support@Domain.Com"><i class="fa fa-envelope"></i> Support@Domain.Com</a>
