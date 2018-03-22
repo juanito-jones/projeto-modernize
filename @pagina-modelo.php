@@ -24,7 +24,7 @@
 	</head>
 	<body>
 		<?php
-			require_once "includes/header.php";
+			require_once "includes/header2.php";
 			require_once "includes/footer-principal.php";
 		?>
 		</footer>
