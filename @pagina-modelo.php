@@ -25,7 +25,7 @@
 	<body>
 		<?php
 			require_once "includes/header2.php";
-			require_once "includes/footer-principal.php";
+			require_once "includes/footer2.php";
 		?>
 		</footer>
 		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
