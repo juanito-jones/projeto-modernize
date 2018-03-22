@@ -24,8 +24,8 @@
 	</head>
 	<body>
 		<?php
-			require_once "includes/header.php";
-			require_once "includes/banner-principal.php";
+			require_once "includes/header2.php";
+			require_once "includes/banner-principal2.php";
 			require_once "includes/about.php";
 			require_once "includes/work.php";
 			require_once "includes/blog.php";
@@ -36,12 +36,8 @@
 			require_once "includes/service.php";
 			require_once "includes/team.php";
 			require_once "includes/testimonial.php";
-			require_once "includes/footer-principal.php";
+			require_once "includes/footer2.php";
 		?>
-		</footer>
-		<!--Footer Section End-->
-		<!-- Site Wraper End -->
-		<!-- Site Wraper End -->
 		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
 		<script type="text/javascript" src="assets/js/tether.min.js"></script>
 		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>

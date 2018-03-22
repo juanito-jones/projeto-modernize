@@ -30,6 +30,7 @@
         <?php
             require_once "includes/header1.php";
             require_once "includes/banner-principal1.php";
+            require_once "includes/footer2.php";
         ?>
         
         <!--Analyze Section start Here-->
