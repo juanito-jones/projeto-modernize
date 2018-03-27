@@ -1,3 +1,41 @@
+<style>
+    .process_section {
+        background: url(../assets/images/project_bg.jpg);
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .process_section:before {
+        position: absolute;
+        content: "";
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.69);
+    }
+    .disp_table {
+        display: table;
+    }
+    .icon_down {
+        border: 1px solid #dcdcdc;
+        display: table-cell;
+        vertical-align: middle;
+        padding: 40px 15px;
+        transition: all 0.3s;
+        background: #ffffff;
+    }
+    .icon_down:hover {
+        box-shadow: inset 0px 0px 0px 4px #6cbe03;
+    }
+    .icon_down .icon-container .icon_bigger {
+        background: transparent !important;
+        color: #939393;
+        font-size: 50px;
+    }
+
+</style>
 <!-- work-->
 <section class="padding ptb-xs-40 gray-bg process_section">
     <div class="container">

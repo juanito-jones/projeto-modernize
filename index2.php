@@ -26,18 +26,15 @@
 		<?php
 			require_once "includes/header2.php";
 			require_once "includes/banner-principal2.php";
-			require_once "includes/sobre-nos.php";
-			require_once "includes/nossos-parceiros.php";
-			require_once "includes/nosso-processo.php";
+			require_once "includes/box-sobre.php";
+			require_once "includes/box-testemunhas.php";
 			require_once "includes/footer2.php";
 		?>
 		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
 		<script type="text/javascript" src="assets/js/tether.min.js"></script>
 		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-
 		<!-- Easing Effect Js -->
 		<script src="assets/js/jquery.easing.js" type="text/javascript"></script>
-
 		<!-- fancybox Js -->
 		<script src="assets/js/jquery.mousewheel-3.0.6.pack.js" type="text/javascript"></script>
 		<script src="assets/js/jquery.fancybox.pack.js" type="text/javascript"></script>
@@ -45,7 +42,6 @@
 		<script src="assets/js/owl.carousel.js" type="text/javascript"></script>
 		<!-- parallax Js -->
 		<script src="assets/js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
-
 		<!-- parallax Js -->
 		<script src="assets/js/jquery.stellar.js" type="text/javascript"></script>
 		<!-- masonry,isotope Effect Js -->

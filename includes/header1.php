@@ -45,7 +45,7 @@
             <div class="row">
                 <div class="mobile-plr col-lg-4 d-md-flex align-items-stretch flex-md-column flex-lg-row">
                     <div class="logo d-flex justify-content-center justify-content-lg-start">
-                        <a href="index.html"> <img src="assets/images/logo.png" alt="Logo"> </a>
+                        <a href="index.php"> <img src="assets/images/logo.png" alt="Logo"> </a>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -93,29 +93,29 @@
                             <a href="#!">Home</a><span class="submenu-button"></span>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="index.html">Home Page 1</a>
+                                    <a href="index.php">Home Page 1</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">Home Page 2</a>
+                                    <a href="index2.php">Home Page 2</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">Home Page 3</a>
+                                    <a href="index3.php">Home Page 3</a>
                                 </li>										<li>
-                                <a href="index4.html">Home Page 4</a>
+                                <a href="index4.php">Home Page 4</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="about.html">About</a>
+                            <a href="about.php">About</a>
                         </li>
                         <li>
                             <a href="javascript:avoid(0);">services</a><span class="submenu-button"></span>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="services.html">All Services</a>
+                                    <a href="services.php">All Services</a>
                                 </li>
                                 <li>
-                                    <a href="services-details.html">Services Details</a>
+                                    <a href="services-details.php">Services Details</a>
                                 </li>
 
                             </ul>
@@ -125,10 +125,10 @@
                             <a href="javascript:avoid(0);">blog</a><span class="submenu-button"></span>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="blog.html">Blog</a>
+                                    <a href="blog.php">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="blog-detail.html">Blog Details</a>
+                                    <a href="blog-detail.php">Blog Details</a>
                                 </li>
                             </ul>
                         </li>
@@ -137,31 +137,31 @@
                             <ul class="dropdown-menu">
 
                                 <li>
-                                    <a href="team.html">Team</a>
+                                    <a href="team.php">Team</a>
                                 </li>
                                 <li>
-                                    <a href="faq.html">Faq</a>
+                                    <a href="faq.php">Faq</a>
                                 </li>
                                 <li>
-                                    <a href="register.html">Register</a>
+                                    <a href="register.php">Register</a>
                                 </li>
                                 <li>
-                                    <a href="login.html">login</a>
+                                    <a href="login.php">login</a>
                                 </li>
                                 <li>
-                                    <a href="testimonial.html">Testimonials</a>
+                                    <a href="testimonial.php">Testimonials</a>
                                 </li>
                                 <li>
-                                    <a href="404.html">404 Error</a>
+                                    <a href="404.php">404 Error</a>
                                 </li>
                                 <li>
-                                    <a href="blank.html">blank</a>
+                                    <a href="blank.php">blank</a>
                                 </li>
                             </ul>
                         </li>
 
                         <li>
-                            <a href="contact.html">Contact us</a>
+                            <a href="contact.php">Contact us</a>
                         </li>
                         <li>
                             <a class="custom-btn" href="#">Get A Quote</a>
