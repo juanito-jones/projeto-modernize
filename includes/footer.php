@@ -79,9 +79,14 @@
         margin-bottom: 15px;
         display: inline-block;
         margin-right: 1px;
-        background:#6aaf08;
-        color: #fff;
+        background: #fff;
+        color: #966A45;
     }
+	.footer .icons-hover-black i:hover{
+		background-color: #966A45;
+		color: #fff;
+		transition: .4s;
+	}
     .footer .blog-link img {
         width: 60px;
         height: 40px;
@@ -240,7 +245,7 @@
         padding-right: 40px !important;
         background: none;
         border-radius: 0;
-        border: 1px solid #fff;
+        border: 1px solid #966a45;
         color: #fff;
     }
     .newsletter .newsletter-btn {
@@ -248,17 +253,26 @@
         top: 0px;
         right: 0px;
         font-size: 18px;
-        background: #6aaf08;
+        background: #FFF;
         line-height: 28px;
         border-radius: 0;
         width: 49px;
     }
+	.newsletter .newsletter-btn .arrow{
+		color: #966a45;
+	}
+	.newsletter .newsletter-btn:hover{
+		background-color: #966a45;
+	}
+	.newsletter .newsletter-btn:hover .arrow{
+		color: #fff;
+	}
 </style>
 <footer class="footer pt-80 pt-xs-40">
     <div class="container">
         <div class="row footer-info mb-60">
             <div class="col-lg-3 col-md-4 col-xs-12 mb-sm-30">
-                <h4 class="mb-30 text-uppercase">CONTATO</h4>
+                <h4 class="mb-30 text-uppercase" style="color: #966a45">CONTATO</h4>
                 <address>
                     <i class="ion-ios-location fa-icons"></i> Dr. Roberto Barrozo 1588 Bom Retiro Ctba PR 80520 070
                 </address>
@@ -271,7 +285,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-xs-12 mb-sm-30">
-                <h4 class="mb-30 text-uppercase">MAPA</h4>
+                <h4 class="mb-30 text-uppercase" style="color: #966a45">MAPA</h4>
                 <ul class="link blog-link">
                     <li><a href="javascript:avoid(0);"><i class="fa fa-angle-double-right"></i> Sobre</a></li>
                     <li><a href="javascript:avoid(0);"><i class="fa fa-angle-double-right"></i> Produtos</a></li>
@@ -307,12 +321,12 @@
             </div>-->
             <div class="col-lg-4 col-md-12 col-xs-12 mt-sm-30 mt-xs-30">
                 <div class="newsletter">
-                    <h4 class="mb-30 text-uppercase">Newsletter Signup</h4>
+                    <h4 class="mb-30 text-uppercase" style="color: #966a45">Newsletter Signup</h4>
                     <p>Subscribe to Our Newsletter to get Important News, Amazing Offers & Inside Scoops:</p>
                     <form>
                         <input type="email" class="newsletter-input input-md newsletter-input mb-0" placeholder="Enter Your Email">
                         <button class="newsletter-btn btn btn-xs btn-color" type="submit" value="">
-                            <i class="fa fa-angle-right mr-0"></i>
+                            <i class="arrow fa fa-angle-right mr-0"></i>
                         </button>
                     </form>
                 </div>
@@ -322,7 +336,7 @@
     <div class="copyright">
         <div class="container">
             <p class="">
-                © 2018 <a><b>Garden HTML5 Template</b></a>. All Rights Reserved.
+                © 2018 <a><b>Modernize</b></a>. Todos os direitos reservados.
             </p>
         </div>
     </div>

@@ -3727,38 +3727,6 @@ style.css:6143
 .dark-translucent-bg {
 	background-color: rgba(0,0,0,.4);
 }
-.contact-form {
-	position: relative;
-	background: #fff;
-}
-.contact-form input[type="text"], .contact-form textarea {
-	padding-right: 30px;
-	border: 1px solid #DEDEDE;
-	margin-bottom: 0;
-	font-size: 14px;
-}
-form .error {
-	border-color: #e1534f !important;
-}
-.contact-form textarea {
-	height: 202px;
-}
-.contact-form input[type="text"] {
-	display: block;
-	height: 46px;
-	margin-bottom: 32px;
-	width: 100%;
-	font-size: 14px;
-	padding: 0 15px;
-	border: 1px solid #e5e5e5;
-	color: #878787;
-	background: transparent;
-	-webkit-appearance: none;
-	border-radius: 0;
-}
-.contact-form input[type="text"]:focus, .contact-form textarea:focus {
-	border: 1px solid #6aaf08;
-}
 .i-block {
 	display: inline-block;
 }
@@ -3780,9 +3748,6 @@ form .error {
 .mapmarker .ion-ios-location {
 	color: #6aaf08;
 	font-size: 50px;
-}
-.form-full {
-	width: 100%;
 }
 @media (max-width: 767px) {
 	.inner-intro .container {

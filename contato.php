@@ -80,53 +80,9 @@
                 <div id="map"></div>
             </div>
             <!-- Map Section -->
-            <div class="container contact-form text-center pt-80 pt-xs-60 mt-up">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="headeing pb-20">
-                            <h2>Get in Touch</h2>
-                            <span class="b-line"></span>
-                        </div>
-                        <p>
-                            Nullam dictum felis eu pede mollis pretium.
-                        </p>
-                        <!-- Contact FORM -->
-                        <form class="contact-form mt-45" id="contact">
-                            <!-- IF MAIL SENT SUCCESSFULLY -->
-                            <div id="success">
-                                <div role="alert" class="alert alert-success">
-                                    <strong>Thanks</strong> for using our template. Your message has been sent.
-                                </div>
-                            </div>
-                            <!-- END IF MAIL SENT SUCCESSFULLY -->
-                            <div class="row">
-                                <div class="col-md-12 col-lg-6">
-                                    <div class="form-field">
-                                        <input class="input-sm form-full" id="name" type="text" name="form-name" placeholder="Your Name">
-                                    </div>
-                                    <div class="form-field">
-                                        <input class="input-sm form-full" id="email" type="text" name="form-email" placeholder="Email" >
-                                    </div>
-                                    <div class="form-field">
-                                        <input class="input-sm form-full" id="sub" type="text" name="form-subject" placeholder="Subject">
-                                    </div>
-                                </div>
-                                <div class="col-md-12 col-lg-6">
-                                    <div class="form-field">
-                                        <textarea class="form-full" id="message" rows="7" name="form-message" placeholder="Your Message" ></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 mt-30">
-                                    <button class="btn-text" type="button" id="submit" name="button">
-                                        Send Message
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                        <!-- END Contact FORM -->
-                    </div>
-                </div>
-            </div>
+            <?php
+				require_once "includes/box-formulario.php";
+			?>
         </section>
         <?php
             include "includes/footer.php";

@@ -26,6 +26,7 @@
 			require_once "includes/banner-principal.php";
 			require_once "includes/box-servicos.php";
 			require_once "includes/box-sobre.php";
+			require_once "includes/box-formulario.php";
 			require_once "includes/footer.php";
 		?>
 		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
