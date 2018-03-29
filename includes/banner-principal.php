@@ -1,12 +1,11 @@
 <div class="main-banner banner_up">
     <div id="rev_slider_34_1_wrapper" class="rev_slider_wrapper" data-alias="news-gallery34">
-        <!-- START REVOLUTION SLIDER 5.0.7 fullwidth mode -->
         <div id="rev_slider_34_1" class="rev_slider" data-version="5.0.7">
             <ul>
                 <!-- SLIDE  -->
                 <li data-index="rs-129"  >
                     <!-- MAIN IMAGE -->
-                    <img src="assets/images/banner/banner_img1.jpg"  alt=""  class="rev-slidebg" >
+                    <img src="assets/images/banner/Banner---Modernize-Persiana-Horizontal.png"  alt=""  class="rev-slidebg" >
                     <!-- LAYERS -->
                     <!-- LAYER NR. 2 -->
                     <div class="tp-caption Newspaper-Title tp-resizeme "
@@ -29,11 +28,11 @@
                          data-responsive_offset="on" >
                         <div class="banner-text text-center">
 
-                            <h2>Let us care &amp;<span> Share your garden</span></h2>
+                            <h2>Persianas <span> Horizontais</span></h2>
                             <p>
-                                There are many variations of passages of Lorem Ipsum available, but the majority majority lorem amet ipsum dummy
+                                Possuem alta durabilidade e resistência, com um alto teor de conservação uma vez que são de fácil manutenção
                             </p>
-                            <a class="btn-text green-bg" href="#"> Learn More</a>
+                            <a class="btn-text green-bg" href="#"> Saiba Mais</a>
                         </div>
                     </div>
                 </li>
@@ -43,7 +42,7 @@
                     <img src="assets/images/banner/banner_img2.jpg"  alt=""  class="rev-slidebg" >
                     <!-- LAYERS -->
                     <!-- LAYER NR. 2 -->
-                    <div class="tp-caption Newspaper-Title   tp-resizeme "
+                    <div class="tp-caption Newspaper-Title tp-resizeme"
                          id="slide-130-layer-1"
                          data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                          data-y="['center','center','center','center']" data-voffset="['0','0','0','0']"

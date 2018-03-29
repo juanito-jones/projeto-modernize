@@ -18,18 +18,11 @@
 		<link href="assets/css/owl.carousel.css" type="text/css" rel="stylesheet" media="screen">
 		<link href="assets/css/magnific-popup.css" rel="stylesheet" type="text/css">
 		<link href="assets/css/style.css" rel="stylesheet">
-		<link href="assets/css/header2.css" rel="stylesheet" type="text/css">
-		<link href="assets/css/footer2.css" rel="stylesheet" type="text/css" />
-		<link href="assets/css/index2.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
 		<?php
-			require_once "includes/header2.php";
-			require_once "includes/banner-principal2.php";
-			require_once "includes/sobre-nos.php";
-			require_once "includes/nossos-parceiros.php";
-			require_once "includes/nosso-processo.php";
-			require_once "includes/footer2.php";
+			require_once "includes/header.php";
+			require_once "includes/footer.php";
 		?>
 		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
 		<script type="text/javascript" src="assets/js/tether.min.js"></script>

@@ -1,10 +1,4 @@
 <style>
-
-    /*-------------------------------------------------------------------------------------------*/
-    /* HEADER         ||---------------------------- */
-    /*-------------------------------------------------------------------------------------------*/
-
-    /*  Header Style   ||-----------*/
     .wrapper {
         position: relative;
         width: 100%;
@@ -17,10 +11,10 @@
         max-width: 1170px;
     }
     #header, .header {
-        /* background: #314555; */
+         /*background: #314555; */
     }
     #header.header-1 {
-        /* background: rgba(29, 29, 29, 0.58); */
+        background: rgba(29, 29, 29, 0.58); 
         position: fixed;
         top: 0;
         z-index: 9;
@@ -65,8 +59,8 @@
     }
     .menu {
         border:none;
-        border-bottom: 4px solid #6cbe03;
-        border-top: 4px solid #6cbe03;
+        border-bottom: 4px solid #966a45;
+        border-top: 4px solid #966a45;
         height: 29px;
         position: absolute;
         right: 29px;
@@ -82,7 +76,7 @@
         content: '';
         width: 100%;
         height: 4px;
-        background:#6cbe03;
+        background:#966a45;
     }
     .header ul {
         float: right;
@@ -130,7 +124,7 @@
         -o-transition: top 0.3s ease 0s, visibility 0.2s ease 0.2s, opacity 0.2s ease 0.1s;
         opacity: 0;
         visibility: hidden;
-        background-color: #6cbe03;
+        background-color: #966a45;
         -webkit-backface-visibility:hidden;
     }
     .navigation .sub-nav li {
@@ -209,7 +203,7 @@
     }
     .header_tran .top_loction ul li a i{
         margin-right: 5px;
-        color: #6cbe03;
+        color: #966a45;
     }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .header .top_loction ul li {
@@ -257,12 +251,12 @@
         line-height: 49px;
         /* border-left: 1px solid #073D51; */
         padding: 0 12px;
-        color: #6cbe03;
+        color: #966a45;
         /* border-color: #212121; */
         transition: all .3s ease;
     }
     .header_tran .top-bar-section .top-social-icon .icons-hover-black a:hover, .header_tran .top_loction ul li a:hover{
-        color: #6cbe03;
+        color: #966a45;
     }
     /*  Header style 2   ||-----------*/
     .header-2 .primary-header {
@@ -603,7 +597,7 @@
         }
 
         .header_tran .navigation .sub-nav li{
-            border-color:#6cbe03;
+            border-color:#966a45;
         }
 
         .header ul, .header ul li {
@@ -639,7 +633,7 @@
             top: 0;
             width: 100%;
             z-index: 9;
-            background:#6cbe03;
+            background:#966a45;
         }
         .header-1 .navigation {
             top: 1px;
@@ -791,7 +785,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="logo">
-                            <a href="javascript:avoid(0);"><img src="assets/images/logo2.png" alt=""></a>
+                            <a href="index.php"><img src="assets/images/logo2.png" alt=""></a>
                         </div>
                         <!-- Phone Menu button -->
                         <button id="menu" class="menu hidden-md-up"></button>
@@ -799,39 +793,29 @@
                     <div class="col-md-9 nav-bg">
                         <nav class="navigation">
                             <ul>
-                                <li><a href="#!">PÁGINA INICIAL</a><i class="ion-ios-plus-empty hidden-md-up"></i>
+                                <li><a href="index.php">PÁGINA INICIAL</a><i class="ion-ios-plus-empty hidden-md-up"></i></li>
+                                <li><a href="sobre.php">QUEM SOMOS</a></li>
+                                <li><a href="vitrine-servicos.php">PERSIANAS</a><i class="ion-ios-plus-empty hidden-md-up"></i>
                                     <ul class="sub-nav">
-                                        <li><a href="index.php">Home Page 1</a></li>
-                                        <li><a href="index2.php">Home Page 2</a></li>
-                                        <li><a href="index3.php">Home Page 3</a></li>										
-                                        <li><a href="index4.php">Home Page 4</a></li>
+                                        <li><a href="servico.php">Persiana Horizontal</a></li>
+                                        <li><a href="servico.php">Persiana Vertical</a></li>
+                                        <li><a href="servico.php">Persiana Motorizada</a></li>
+                                        <li><a href="servico.php">Persiana Rolo</a></li>
+                                        <li><a href="servico.php">Persiana Romana</a></li>
+                                        <li><a href="servico.php">Persiana de Madeira</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="about.php">QUEM SOMOS</a></li>
-                                <li><a href="javascript:avoid(0);">PERSIANAS</a><i class="ion-ios-plus-empty hidden-md-up"></i>
+                                <li><a href="vitrine-servicos.php">CORTINAS</a><i class="ion-ios-plus-empty hidden-md-up"></i>
                                     <ul class="sub-nav">
-                                        <li><a href="services.php">All Services</a></li>
-                                        <li><a href="services-details.php">Services Details</a></li>
+                                        <li><a href="servico.php">Cortina Rolo</a></li>
+                                        <li><a href="servico.php">Cortina Plissada</a></li>
+                                        <li><a href="servico.php">Cortina Romana</a></li>
+                                        <li><a href="servico.php">Cortina de Teto</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="javascript:avoid(0);">CORTINAS</a><i class="ion-ios-plus-empty hidden-md-up"></i>
-                                    <ul class="sub-nav">
-                                        <li><a href="blog.php">Blog</a></li>
-                                        <li><a href="blog-detail.php">Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="javascript:avoid(0);">OMBRELONES</a><i class="ion-ios-plus-empty hidden-md-up"></i>
-                                    <ul class="sub-nav">
-                                        <li><a href="team.php">Team</a></li>
-                                        <li><a href="faq.php">Faq</a></li>
-                                        <li><a href="register.php">Register</a></li>
-                                        <li><a href="login.php">login</a></li>
-                                        <li><a href="testimonial.php">Testimonials</a></li>
-                                        <li><a href="404.php">404 Error</a></li>
-                                        <li><a href="blank.php">blank</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.php">CONTATO</a></li>
+                                <li><a href="vitrine-servicos.php">VENEZIANAS</a><i class="ion-ios-plus-empty hidden-md-up"></i></li>
+                                <li><a href="vitrine-servicos.php">OMBRELONES</a><i class="ion-ios-plus-empty hidden-md-up"></i></li>
+                                <li><a href="contato.php">CONTATO</a></li>
                             </ul>
                         </nav>
                     </div>

@@ -1,4 +1,32 @@
-<div class="dark-bg project-section clearfix">
+<style>
+    .width-25per {
+        width: 25%;
+    }
+    .width-75per, .tab-respons {
+        width: 75%;
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .width-25per {
+            width: 35%;
+        }
+        .width-75per, .tab-respons {
+            width: 65%;
+        }
+    }
+    @media (max-width: 767px) {
+        .width-25per {
+            width: 100%;
+        }
+        .width-75per, .tab-respons {
+            width: 100%;
+        }
+        .tab-respons{
+            /* padding-bottom:40px; */
+        }
+    }
+</style>
+<div class="dark-bg project-section clearfix padding">
 
     <div class="width-25per dark-bg fl">
         <div class=" light-color plr-30 m-height ">
