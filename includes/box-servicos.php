@@ -39,7 +39,7 @@
 								<div class="row">
 
 									<div class="col-lg-11 offset-lg-1 mt-sm-30">
-										<figure><img src="assets/images/service/home1_services-1.jpg" alt="" />
+										<figure><img src="assets/images/service/persiana.jpeg" alt="" />
 										</figure>
 										<div class="service__content_box">
 											<h4>Persianas</h4>
@@ -57,7 +57,7 @@
 								<div class="row">
 
 									<div class="col-lg-11 offset-lg-1 mt-sm-30">
-										<figure><img src="assets/images/service/home1_services-2.jpg" alt="" />
+										<figure><img src="assets/images/service/persiana.jpeg" alt="" />
 										</figure>
 										<div class="service__content_box">
 											<h4>Cortinas</h4>
@@ -75,7 +75,7 @@
 								<div class="row">
 
 									<div class="col-lg-11 offset-lg-1 mt-sm-30">
-										<figure><img src="assets/images/service/home1_services-3.jpg" alt="" />
+										<figure><img src="assets/images/service/persiana.jpeg" alt="" />
 										</figure>
 										<div class="service__content_box">
 											<h4>Venezianas</h4>
@@ -92,7 +92,7 @@
 							<div class="service-test plr-20 service-tab-fouth mt-sm-30">
 								<div class="row">
 									<div class="col-lg-11 offset-lg-1 mt-sm-30">
-										<figure><img src="assets/images/service/home1_services-4.jpg" alt=""/>
+										<figure><img src="assets/images/service/persiana.jpeg" alt="" />
 										</figure>
 										<div class="service__content_box">
 											<h4>Ombrelones</h4>

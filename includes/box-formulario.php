@@ -39,7 +39,7 @@
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="headeing pb-20">
-				<h2>Get in Touch</h2>
+				<h2>Entre em contato</h2>
 				<span class="b-line"></span>
 			</div>
 			<p>
@@ -73,7 +73,7 @@
 					</div>
 					<div class="col-sm-12 mt-30">
 						<button class="btn-text" type="button" id="submit" name="button">
-							Send Message
+							Enviar sua Mensagem
 						</button>
 					</div>
 				</div>

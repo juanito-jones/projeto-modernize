@@ -22,17 +22,17 @@
         <!-- Intro Section -->
         <div class="page-header parallax">
             <div class="container">
-                <h1 class="title">CONTACT</h1>
+                <h1 class="title">CONTATO</h1>
             </div>
             <div class="breadcrumb-box">
                 <div class="container">
                     <nav aria-label="breadcrumb" role="navigation">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <a href="#">Home</a>
+                                <a href="#">Página Inicial</a>
                             </li>
                             <li class="breadcrumb-item active" aria-current="page">
-                                CONTACT
+                                Contato
                             </li>
                         </ol>
                     </nav>
@@ -46,7 +46,7 @@
                 <div class="row text-center">
                     <div class="col-md-8 offset-md-2 text-center">
                         <div class="heading-box pb-30">
-                            <h2>Keep in Touch</h2>
+                            <h2>Entre em Contato</h2>
                             <span class="b-line"></span>
                         </div>
                         <p class="lead">
@@ -58,18 +58,18 @@
                     <div class="col-sm-12 contact pb-60 pt-30">
                         <div class="row text-center">
                             <div class="col-sm-4 pb-xs-30">
-                                <i class="ion-android-call icon-circle pos-s"></i><a href="#" class="mt-15 i-block">+91 123-1234</a>
+                                <i class="ion-android-call icon-circle pos-s"></i><a href="#" class="mt-15 i-block">+55 123-1234</a>
                             </div>
                             <div class="col-sm-4 pb-xs-30">
                                 <i class="ion-ios-location icon-circle pos-s"></i>
                                 <p  class="mt-15">
-                                    123 Main Street, St. NW Ste,
+                                    Dr.Roberto Barrozo 1588 Bom Retiro
                                     <br />
-                                    1 Washington, DC,USA.
+                                    Ctba PR 80520 070
                                 </p>
                             </div>
                             <div class="col-sm-4 pb-xs-30">
-                                <i class="ion-ios-email icon-circle pos-s"></i><a href="mailto:business@support.com"  class="mt-15 i-block">business@support.com</a>
+                                <i class="ion-ios-email icon-circle pos-s"></i><a href="mailto:falecom@lojadopaisagista.com"  class="mt-15 i-block">falecom@lojadopaisagista.com</a>
                             </div>
                         </div>
                     </div>

@@ -41,25 +41,25 @@
                                 when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap int
                             </p>
                         </div>
-                        <h4>Our smart approach</h4>
+                        <h4>Nossos serviços</h4>
                         <ul class="list">
                             <li>
-                                <i class="ion-android-done-all text-color"> </i> We provide excillence service to your needs
+                                <i class="ion-android-done-all text-color"> </i> Nós fornecemos serviço de excelência para suas necessidades
                             </li>
                             <li>
-                                <i class="ion-android-done-all text-color"> </i> we have expereince wokrker
+                                <i class="ion-android-done-all text-color"> </i> temos trabalhador experiente
                             </li>
                             <li>
-                                <i class="ion-android-done-all text-color"> </i> Get 17 times best garden care co awarded
+                                <i class="ion-android-done-all text-color"> </i> melhor cuidado com seu produto
                             </li>
                             <li>
-                                <i class="ion-android-done-all text-color"> </i> We provide excillence service to your needs
+                                <i class="ion-android-done-all text-color"> </i> Nós fornecemos serviço de excelência para suas necessidades
                             </li>
                             <li>
-                                <i class="ion-android-done-all text-color"> </i> we have expereince wokrker
+                                <i class="ion-android-done-all text-color"> </i> temos trabalhador experiente
                             </li>
                             <li>
-                                <i class="ion-android-done-all text-color"> </i> Get 17 times best garden care co awarded
+                                <i class="ion-android-done-all text-color"> </i> temos trabalhador experiente
                             </li>
 
                         </ul>
@@ -75,9 +75,8 @@
         </div>
         <!-- About Section End-->
         <?php
-            include "includes/box-estatisticas2.php";   
-            include "includes/box-time2.php";   
-            include "includes/footer.php";   
+			include "includes/box-time2.php";
+            include "includes/footer.php";
         ?>
         <script type="text/javascript" src="assets/js/jquery.min.js"></script>
         <script type="text/javascript" src="assets/js/tether.min.js"></script>
