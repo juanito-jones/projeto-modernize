@@ -23,17 +23,17 @@
         <!-- Intro Section -->
         <div class="page-header parallax">
             <div class="container">
-                <h1 class="title">SERVICES</h1>
+                <h1 class="title">Serviços</h1>
             </div>
             <div class="breadcrumb-box">
                 <div class="container">
                     <nav aria-label="breadcrumb" role="navigation">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <a href="#">Home</a>
+                                <a href="#">Página Inicial</a>
                             </li>
                             <li class="breadcrumb-item active" aria-current="page">
-                                SERVICES DETAILS
+                                Detalhes do Serviço
                             </li>
                         </ol>
                     </nav>
@@ -49,7 +49,7 @@
 
                         <div class="text-box mt-40">
                             <div class="box-title mb-20">
-                                <h2>Rubbish Removal</h2>
+                                <h2>Nossas Persianas</h2>
                             </div>
                             <div class="text-content">
                                 <p>
@@ -87,7 +87,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-12 faq-service mb-30 mt-30">
-                                    <h3>Reporting and Cost Control</h3>
+                                    <h3>Relatórios e Controle de Custos</h3>
                                     <div class="text-content mb-30">
                                         <p>
                                             Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget..
