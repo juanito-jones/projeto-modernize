@@ -66,7 +66,7 @@
 
                     </div>
                     <div class="col-md-12 col-lg-6">
-                        <img class="img-responsive" src="assets/images/project1.jpg" alt="Photo">
+                        <img class="img-responsive" src="assets/images/images.jpg" alt="Photo">
                     </div>
 
                 </div>
