@@ -274,18 +274,6 @@
         <div class="row footer-info mb-60">
             
 			
-            <div class="col-lg-12 col-md-12 col-xs-12 mt-sm-30 mt-xs-30">
-                <div class="newsletter">
-                    <h4 class="mb-30 text-uppercase" style="color: #966a45">Newsletter Signup</h4>
-                    <p>Subscribe to Our Newsletter to get Important News, Amazing Offers & Inside Scoops:</p>
-                    <form>
-                        <input type="email" class="newsletter-input input-md newsletter-input mb-0" placeholder="Enter Your Email">
-                        <button class="newsletter-btn btn btn-xs btn-color" type="submit" value="">
-                            <i class="arrow fa fa-angle-right mr-0"></i>
-                        </button>
-                    </form>
-                </div>
-            </div>
             <div class="col-lg-4 col-md-5 col-xs-12 mb-sm-30">
                 <h4 style="color: #7C5C41" class="mb-30 text-uppercase">Persianas</h4>
                 <div class="widget-details link">
@@ -300,7 +288,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-5 col-xs-12 mb-sm-30">
+            <div class="col-lg-4 col-md-5 col-xs-12 mb-sm-30">
                 <h4 style="color: #7C5C41" class="mb-30 text-uppercase">Persianas</h4>
                 <div class="widget-details link">
                     <div class="post-type-post media">
@@ -313,7 +301,7 @@
                     </div>
                 </div>
             </div>
-			<div class="col-lg-3 col-md-5 col-xs-12 mb-sm-30">
+			<div class="col-lg-4 col-md-5 col-xs-12 mb-sm-30">
                 <h4 style="color: #7C5C41" class="mb-30 text-uppercase">Venezianas</h4>
                 <div class="widget-details link">
                     <div class="post-type-post media">
@@ -339,7 +327,7 @@
                     <a href="javascript:avoid(0);"> <i class="fa fa-facebook"></i> </a><a href="javascript:avoid(0);"> <i class="fa fa-twitter"></i> </a><a href="javascript:avoid(0);"> <i class="fa fa-youtube"></i> </a><a href="javascript:avoid(0);"> <i class="fa fa-dribbble"></i> </a><a href="javascript:avoid(0);"> <i class="fa fa-linkedin"></i> </a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-xs-12 mb-sm-30">
+            <div class="col-lg-4 col-md-3 col-xs-12 mb-sm-30">
                 <h4 class="mb-30 text-uppercase" style="color: #966a45">MAPA</h4>
                 <ul class="link blog-link">
                     <li><a href="javascript:avoid(0);"><i class="fa fa-angle-double-right"></i> Sobre</a></li>
@@ -347,6 +335,18 @@
                     <li><a href="javascript:avoid(0);"><i class="fa fa-angle-double-right"></i> Politica de Privacidade</a></li>
                     <li><a href="javascript:avoid(0);"><i class="fa fa-angle-double-right"></i> Termos & Condições</a></li>
                 </ul>
+            </div>
+            <div class="col-lg-4 col-md-12 col-xs-12 mt-sm-30 mt-xs-30">
+                <div class="newsletter">
+                    <h4 class="mb-30 text-uppercase" style="color: #966a45">Newsletter Signup</h4>
+                    <p>Subscribe to Our Newsletter to get Important News, Amazing Offers & Inside Scoops:</p>
+                    <form>
+                        <input type="email" class="newsletter-input input-md newsletter-input mb-0" placeholder="Enter Your Email">
+                        <button class="newsletter-btn btn btn-xs btn-color" type="submit" value="">
+                            <i class="arrow fa fa-angle-right mr-0"></i>
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

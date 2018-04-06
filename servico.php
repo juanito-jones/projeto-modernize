@@ -66,28 +66,28 @@
                             </div>
                             <div class="row mt-45 clearfix">
                                 <div class="col-md-12 mb-30 col-lg-4">
-                                    <img class="img-responsive" src="assets/images/project/project2.jpg" alt="Photo">
+                                    <img class="img-responsive" src="assets/images/project/persiana3.jpg" alt="Photo">
                                 </div>
                                 <div class="col-md-12 mb-30 col-lg-4">
-                                    <img class="img-responsive" src="assets/images/project/project2.jpg" alt="Photo">
+                                    <img class="img-responsive" src="assets/images/project/persiana2.jpg" alt="Photo">
                                 </div>
                                 <div class="col-md-12 mb-30 col-lg-4">
-                                    <img class="img-responsive" src="assets/images/project/project2.jpg" alt="Photo">
+                                    <img class="img-responsive" src="assets/images/project/persiana3.jpg" alt="Photo">
                                 </div>
                                 <div class="col-md-12 mb-30 col-lg-4">
-                                    <img class="img-responsive" src="assets/images/project/project2.jpg" alt="Photo">
+                                    <img class="img-responsive" src="assets/images/project/persiana3.jpg" alt="Photo">
                                 </div>
                                 <div class="col-md-12 mb-30 col-lg-4">
-                                    <img class="img-responsive" src="assets/images/project/project2.jpg" alt="Photo">
+                                    <img class="img-responsive" src="assets/images/project/persiana2.jpg" alt="Photo">
                                 </div>
                                 <div class="col-md-12 mb-30 col-lg-4">
-                                    <img class="img-responsive" src="assets/images/project/project2.jpg" alt="Photo">
+                                    <img class="img-responsive" src="assets/images/project/persiana3.jpg" alt="Photo">
                                 </div>
 
                             </div>
                             <div class="row">
                                 <div class="col-sm-12 faq-service mb-30 mt-30">
-                                    <h3>Relatórios e Controle de Custos</h3>
+                                   	<h2>Especificações Tecnicas</h2>
                                     <div class="text-content mb-30">
                                         <p>
                                             Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget..
@@ -95,44 +95,17 @@
                                             Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget..
                                         </p>
                                     </div>
-                                    <div class="panel-group service-faq faq" id="accordion">
-                                        <div class="panel panel-default">
-                                            <div class="panel-heading">
-                                                <h4 class="panel-title"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-1" aria-expanded="true"> Duis aute irure dolor in reprehenderit <i class="fa fa-plus collape-plus"></i></a></h4>
-                                            </div>
-                                            <div id="collapse-1" class="panel-collapse collapse in">
-                                                <div class="panel-body">
-                                                    <p>
-                                                        Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem, Maecenas tempus, tellus eget condimentum rhoncus.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="panel panel-default">
-                                            <div class="panel-heading">
-                                                <h4 class="panel-title"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" aria-expanded="false"> Duis aute irure dolor in reprehenderit <i class="fa fa-plus collape-plus"></i></a></h4>
-                                            </div>
-                                            <div id="collapse-2" class="panel-collapse collapse">
-                                                <div class="panel-body">
-                                                    <p>
-                                                        Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem, Maecenas tempus, tellus eget condimentum rhoncus.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="panel panel-default">
-                                            <div class="panel-heading">
-                                                <h4 class="panel-title"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-3" aria-expanded="false"> Duis aute irure dolor in reprehenderit <i class="fa fa-plus collape-plus"></i></a></h4>
-                                            </div>
-                                            <div id="collapse-3" class="panel-collapse collapse">
-                                                <div class="panel-body">
-                                                    <p>
-                                                        Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem, Maecenas tempus, tellus eget condimentum rhoncus.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+								<div class="display-espec">
+									<div class="box-espec">
+										<ul>
+											<li>Aenean suscipit eget mi</li>
+											<li>Aenean suscipit eget mi Aenean suscipit eget mi</li>
+											<li>Aenean suscipit eget mi</li>
+											<li>Aenean suscipit eget mi Aenean suscipit eget mi</li>
+											<li>Aenean suscipit eget mi</li>
+											<li>Aenean suscipit eget mi</li>
+										</ul>
+									</div>	
                                 </div>
                             </div>
                         </div>
