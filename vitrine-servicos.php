@@ -29,31 +29,10 @@
     <body>
         <?php
             include "includes/header.php";
-        ?>
-        <!-- Intro Section -->
-        <div class="page-header parallax">
-            <div class="container">
-                <h1 class="title">SERVICES</h1>
-            </div>
-            <div class="breadcrumb-box">
-                <div class="container">
-                    <nav aria-label="breadcrumb" role="navigation">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item">
-                                <a href="#">Home</a>
-                            </li>
-                            <li class="breadcrumb-item active" aria-current="page">
-                                SERVICES
-                            </li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-        </div>
-        <?php
+			include "includes/box-breadcrumb-servicos.php";
             include "includes/box-servicos4.php";
             include "includes/footer.php";
-        ?>
+		?>
         <script type="text/javascript" src="assets/js/jquery.min.js"></script>
         <script type="text/javascript" src="assets/js/tether.min.js"></script>
         <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>

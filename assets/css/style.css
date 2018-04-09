@@ -2125,11 +2125,7 @@ button {
 
 .parallax {
 	position: relative;
-	background: url(../images/banner_img1.jpg) no-repeat;
-	background-size: cover;
 	width: 100%;
-	background-attachment: fixed;
-	background-position: center center;
 }
 .overlay-dark:before {
     background-color: rgba(42, 72, 0, 0.75);
@@ -3647,9 +3643,10 @@ style.css:6143
  Pages
  *******************************************************************************/
 .withe-color h2 span{ color: #fff;}
-.page-header {
+.page-header{
 	padding: 90px 0;
-	}
+	height: 300px;
+}
 .page-header:before {
 	content: '';
 	position: absolute;
@@ -3661,7 +3658,7 @@ style.css:6143
 	opacity: 0.6;
 }
 .page-header h1 {
-	margin: 0;
+	margin-top: 55px;
 	font-size: 42px;
 	text-transform: capitalize;
 	font-weight: bold;

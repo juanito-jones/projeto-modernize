@@ -17,29 +17,8 @@
     <body>
         <?php
             include "includes/header.php";
+			include "includes/box-breadcrumb-contato.php";
         ?>
-        <!-- CONTENT -->
-        <!-- Intro Section -->
-        <div class="page-header parallax">
-            <div class="container">
-                <h1 class="title">CONTATO</h1>
-            </div>
-            <div class="breadcrumb-box">
-                <div class="container">
-                    <nav aria-label="breadcrumb" role="navigation">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item">
-                                <a href="#">Página Inicial</a>
-                            </li>
-                            <li class="breadcrumb-item active" aria-current="page">
-                                Contato
-                            </li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-        </div>
-        <!-- Intro Section -->
         <!-- Contact Section -->
         <section class="padding ptb-xs-60">
             <div class="container">

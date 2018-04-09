@@ -17,8 +17,8 @@
     </head>
     <body>
         <?php
-            include "includes/header.php";   
-            include "includes/box-breadcrumb.php";    
+            include "includes/header.php";
+            include "includes/box-breadcrumb-quemsomos.php";
         ?>
         <div id="about-section" class="padding pt-xs-60">
             <div class="container">

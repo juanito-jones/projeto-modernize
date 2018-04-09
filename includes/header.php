@@ -14,8 +14,8 @@
          /*background: #314555; */
     }
     #header.header-1 {
+		position: fixed;
         background: rgba(29, 29, 29, 0.58); 
-        position: fixed;
         top: 0;
         z-index: 9;
         width: 100%;

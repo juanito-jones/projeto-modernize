@@ -1,4 +1,4 @@
-<div class="page-header parallax" style="background-image: url(assets/images/banner/banner-persiana.png)">
+<div class="page-header parallax" style="background-image: url(assets/images/banner/banner-quemsomos.png)">
 	<div class="container">
 		<br style="clear: both;">
 		<h1 class="title">Sobre</h1> 
