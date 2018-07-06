@@ -272,48 +272,6 @@
 <footer class="footer pt-80 pt-xs-40">
     <div class="container">
         <div class="row footer-info mb-60">
-            
-			
-            <div class="col-lg-4 col-md-5 col-xs-12 mb-sm-30">
-                <h4 style="color: #7C5C41" class="mb-30 text-uppercase">Persianas</h4>
-                <div class="widget-details link">
-                    <div class="post-type-post media">
-                        <div class="post-content media-body">
-                           	<p class="entry-title"><a href="javascript:avoid(0);">Persiana Horizontal</a></p>
-                            <p class="entry-title"><a href="javascript:avoid(0);">Persiana Vertical</a></p>
-                            <p class="entry-title"><a href="javascript:avoid(0);">Persiana Motorizada</a></p>
-                            <p class="entry-title"><a href="javascript:avoid(0);">Persiana Rolo</a></p>
-                            <p class="entry-title"><a href="javascript:avoid(0);">Persiana Romana</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-5 col-xs-12 mb-sm-30">
-                <h4 style="color: #7C5C41" class="mb-30 text-uppercase">Persianas</h4>
-                <div class="widget-details link">
-                    <div class="post-type-post media">
-                        <div class="post-content media-body">
-                           	<p class="entry-title"><a href="javascript:avoid(0);">Cortina Rolo</a></p>
-                            <p class="entry-title"><a href="javascript:avoid(0);">Cortina Romana</a></p>
-                            <p class="entry-title"><a href="javascript:avoid(0);">Cortina Pilssada</a></p>
-                            <p class="entry-title"><a href="javascript:avoid(0);">Cortina de Teto</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-			<div class="col-lg-4 col-md-5 col-xs-12 mb-sm-30">
-                <h4 style="color: #7C5C41" class="mb-30 text-uppercase">Venezianas</h4>
-                <div class="widget-details link">
-                    <div class="post-type-post media">
-                        <div class="post-content media-body">
-                           	<p class="entry-title"><a href="javascript:avoid(0);">Cortina Rolo</a></p>
-                            <p class="entry-title"><a href="javascript:avoid(0);">Cortina Romana</a></p>
-                            <p class="entry-title"><a href="javascript:avoid(0);">Cortina Pilssada</a></p>
-                            <p class="entry-title"><a href="javascript:avoid(0);">Cortina de Teto</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="col-lg-4 col-md-4 col-xs-12 mb-sm-30">
                 <h4 class="mb-30 text-uppercase" style="color: #966a45">CONTATO</h4>
                 <address>

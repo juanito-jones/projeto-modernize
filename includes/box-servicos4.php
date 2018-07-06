@@ -50,85 +50,60 @@
         <div class="row pb-50 pb-xs-30">
             <div class="col-md-12">
                 <div class="sec-title">
-                    <h2>Persianas</h2>
-                    <p style="text-align: justify">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, </p>
+                    <h2><?= $headInfo["titulo"];?></h2>
+                    <p style="text-align: justify"><?= $cls_paginas->descricao;?></p>
                 </div>
             </div>
         </div>
         <div class="row">
-
-            <!--Services Block-->
-            <div class="services-block col-lg-4 col-md-6 col-xs-12 mb-30 mb-sm-30 mb-xs-30">
-                <div class="inner-box hvr-float">
-                    <div class="image">
-                        <img src="assets/images/service/persiana.jpeg" alt="">
-                    </div>
-                    <div class="lower-box">
-                        <h3><a href="#!">Persianas Horizontal</a></h3>
-                    </div>
-                </div>
-            </div>
-
-            <!--Services Block-->
-            <div class="services-block col-lg-4 col-md-6 col-xs-12 mb-60 mb-sm-30 mb-xs-30">
-                <div class="inner-box hvr-float">
-                    <div class="image">
-                        <img src="assets/images/service/persiana.jpeg" alt="">
-                    </div>
-                    <div class="lower-box">
-                        <h3><a href="#!">Persiana Vertical</a></h3>
-                    </div>
-                </div>
-            </div>
-
-            <!--Services Block-->
-            <div class="services-block col-lg-4 col-md-6 col-xs-12 mb-60 mb-sm-30 mb-xs-30">
-                <div class="inner-box hvr-float">
-                    <div class="image">
-                        <img src="assets/images/service/persiana.jpeg" alt="">
-                    </div>
-                    <div class="lower-box">
-                        <h3><a href="#!">Persiana Motorizadas</a></h3>
-                    </div>
-                </div>
-            </div>
-
-            <!--Services Block-->
-            <div class="services-block col-lg-4 col-md-6 col-xs-12 mb-sm-30 mb-xs-30">
-                <div class="inner-box hvr-float">
-                    <div class="image">
-                        <img src="assets/images/service/persiana.jpeg" alt="">
-                    </div>
-                    <div class="lower-box">
-                        <h3><a href="#!">Persiana Rolo</a></h3>
-                    </div>
-                </div>
-            </div>
-
-            <!--Services Block-->
-            <div class="services-block col-lg-4 col-md-6 col-xs-12 mb-xs-30">
-                <div class="inner-box hvr-float">
-                    <div class="image">
-                        <img src="assets/images/service/persiana.jpeg" alt="">
-                    </div>
-                    <div class="lower-box">
-                        <h3><a href="#!">Persiana Romana</a></h3>
-                    </div>
-                </div>
-            </div>
-
-            <!--Services Block-->
-            <div class="services-block col-lg-4 col-md-6 col-xs-12">
-                <div class="inner-box hvr-float">
-                    <div class="image">
-                        <img src="assets/images/service/persiana.jpeg" alt="">
-                    </div>
-                    <div class="lower-box">
-                        <h3><a href="#!">Persiana de Madeira</a></h3>
-                    </div>
-                </div>
-            </div>
-
+                <?php
+                if(!empty($selectedProdutos)){
+                    foreach($selectedProdutos as $prod){
+                        $cls_produtos->montar_produto($prod);
+                        $infoProduto = $cls_produtos->montar_array();
+                        $nomeProduto = $infoProduto['nome'];
+                        $idProduto = $infoProduto['id'];
+                        $dirImagens = 'imagens/produtos/';
+                        $imagens = $infoProduto["imagens"];
+                        $qtdImagens = count($imagens);
+                        $imageExiste = false;
+                        if($qtdImagens > 0){
+                            $imagemPrincipal = $imagens[0];
+                            $srcImagem = $imagemPrincipal["src"];
+                            if(file_exists($dirImagens.$srcImagem) && $srcImagem != ""){
+                                $imageExiste = true;
+                                echo __DIR__;
+                            }
+                            if(!$imageExiste){
+                                $srcImagem = $dirImagens."produto-padrao.png";
+                            }else{
+                                $srcImagem = $dirImagens.$srcImagem;
+                            }
+                        }else{
+                            $srcImagem = "produto-padrao.png";
+                        }
+                        echo "<div class='services-block col-lg-4 col-md-6 col-xs-12 mb-30 mb-sm-30 mb-xs-30'>";
+                            echo "<div class='inner-box hvr-float'>";
+                                echo "<div class='image'>";
+                                    echo "<img src='$srcImagem' alt='Imagem - {$nomeProduto}'>";
+                                echo "</div>";
+                                    echo "<div class='lower-box'>";
+                                    echo "<h3><a href='servico.php?id_produto=$idProduto'>{$nomeProduto}</a></h3>";
+                                echo "</div>";
+                            echo "</div>";
+                        echo "</div>";
+                    }
+                }else{
+                    echo "<div class='services-block col-lg-12'>";
+                        echo "<div class='inner-box hvr-float'>";
+                            echo "<div class='lower-box'>";
+                                echo "<h3>Desculpa, nossos produtos podem ter esgotado.</h3>";
+                            echo "</div>";
+                        echo "</div>";
+                    echo "</div>";
+                }
+                ?>
+                
         </div>
     </div>
 </section>

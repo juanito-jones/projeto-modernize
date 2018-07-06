@@ -950,5 +950,4 @@ if (mapWrap.length) {
 			}
 		});
 	}
-
 }

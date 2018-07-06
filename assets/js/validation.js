@@ -1,83 +1,58 @@
 jQuery(function($) {"use strict";
 	var Site = {
-
 		initialized : false,
-
 		initialize : function() {
-
 			if (this.initialized)
 				return;
 			this.initialized = true;
-
 			this.build();
 			this.validation();
 			//this.events();
 		},
-
 		build : function() {
 		},
-		
 		validation : function() {
 			var bool = true;
-
 			$('#name,#sub,#email,#message').blur(function() {
 				validateForm2(this);
 			});
-
 			$('#submit').click(function() {
 				var i = 0;
 				var x = $('#name').val();
-
 				if (x == null || x == "" || x == "Name") {
-
 					$('#name').addClass('error')
 					bool = false;
-
 				} else {
 					i++;
 					$('#name').removeClass('error');
 					name_val = $('#name').val();
-
 				}
-
 				var x = $('#sub').val();
-
 				if (x == null || x == "" || x == "Name") {
 					$('#sub').addClass('error')
 					bool = false;
-
 				} else {
 					i++;
 					$('#sub').removeClass('error');
 					comp_val = $('#sub').val();
-
 				}
-
 				var x = $('#email').val();
-
 				var atpos = x.indexOf("@");
 				var dotpos = x.lastIndexOf(".");
 				if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= x.length || x == 'Email') {
 					$('#email').addClass('error')
 					bool = false;
 				} else {
-
 					i++;
 					$('#email').removeClass('error');
 					email_val = $('#email').val();
-
 				}
-
 				msg_val = $('#message').val();
 				//alert(i);
-
 				if (i == 3) {
-
 					bool = true;
 				}
-
 				if (!bool) {
-
 					return false;
 				} else {
 					$.post('mail.php', {
@@ -86,8 +61,6 @@ jQuery(function($) {"use strict";
 						company : comp_val,
 						msg : msg_val,
 					}, function(data) {
-						
-
 						if (data == 1) {
 							setTimeout(function() {
 								$('#name').val('');
@@ -145,5 +118,5 @@ jQuery(function($) {"use strict";
 	};
 
 	Site.initialize();
-})
+});
 

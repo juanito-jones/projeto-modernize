@@ -757,9 +757,9 @@
                 <div class="col-lg-8">
                     <div class="top_loction pull-left">
                         <ul>
-                            <li><a href="#!"><i class="fa fa-map-marker"></i> Rua Dr. Roberto Barrozo, 1588 Bom Retiro Curitiba</a></li>
-                            <li><a href="mailto:Support@Domain.Com"><i class="fa fa-envelope"></i> falecom@lojadopaisagista.com</a></li>
-                            <li><a href="tel:1234567890"><i class="fa fa-phone"></i> (41) 3022 1925</a></li>
+                            <li><a href="#!"><i class="fa fa-map-marker"></i> Rua Brasilio Itibere, 3723 - Água Verde</a></li>
+                            <li><a href="mailto:Support@Domain.Com"><i class="fa fa-envelope"></i> contato@modernizecuritiba.com.br</a></li>
+                            <li><a href="tel:1234567890"><i class="fa fa-phone"></i> (41) 3328-6554</a></li>
                         </ul>
                     </div>
                 </div>
@@ -795,26 +795,42 @@
                             <ul>
                                 <li><a href="index.php">PÁGINA INICIAL</a><i class="ion-ios-plus-empty hidden-md-up"></i></li>
                                 <li><a href="sobre.php">QUEM SOMOS</a></li>
-                                <li><a href="vitrine-servicos.php">PERSIANAS</a><i class="ion-ios-plus-empty hidden-md-up"></i>
-                                    <ul class="sub-nav">
-                                        <li><a href="servico.php">Persiana Horizontal</a></li>
-                                        <li><a href="servico.php">Persiana Vertical</a></li>
-                                        <li><a href="servico.php">Persiana Motorizada</a></li>
-                                        <li><a href="servico.php">Persiana Rolo</a></li>
-                                        <li><a href="servico.php">Persiana Romana</a></li>
-                                        <li><a href="servico.php">Persiana de Madeira</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="vitrine-servicos.php">CORTINAS</a><i class="ion-ios-plus-empty hidden-md-up"></i>
-                                    <ul class="sub-nav">
-                                        <li><a href="servico.php">Cortina Rolo</a></li>
-                                        <li><a href="servico.php">Cortina Plissada</a></li>
-                                        <li><a href="servico.php">Cortina Romana</a></li>
-                                        <li><a href="servico.php">Cortina de Teto</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="vitrine-servicos.php">VENEZIANAS</a><i class="ion-ios-plus-empty hidden-md-up"></i></li>
-                                <li><a href="vitrine-servicos.php">OMBRELONES</a><i class="ion-ios-plus-empty hidden-md-up"></i></li>
+                                <?php
+                                require_once __DIR__."/../@classe-produtos.php";
+                                require_once __DIR__."/../@pew/pew-system-config.php";
+                                
+                                $cls_produtos = new Produtos();
+                                $tabela_departamentos = $pew_custom_db->tabela_departamentos;
+                                $tabela_categorias = $pew_db->tabela_categorias;
+                                $tabela_links_menu = $pew_custom_db->tabela_links_menu;
+                                
+                                $queryInfoDepartamentos = mysqli_query($conexao, "
+                                SELECT $tabela_departamentos.id, $tabela_departamentos.departamento, $tabela_departamentos.ref FROM $tabela_departamentos
+                                WHERE status = 1
+                                ORDER BY posicao asc
+                                ");
+                                
+                                while($infoDepartamento = mysqli_fetch_array($queryInfoDepartamentos)){
+                                    $idDepartamento = $infoDepartamento["id"];
+                                    $queryRelacao = mysqli_query($conexao, "
+                                    SELECT DISTINCT
+                                        pew_links_menu.id_categoria, pew_categorias.categoria, pew_categorias.ref
+                                    FROM
+                                        pew_links_menu
+                                    INNER JOIN pew_categorias
+                                    ON pew_links_menu.id_categoria = pew_categorias.id
+
+                                    WHERE pew_links_menu.id_departamento = {$idDepartamento}
+                                    ");
+                                    echo "<li><a href='produtos.php?departamento={$infoDepartamento['ref']}'>{$infoDepartamento['departamento']}</a><i class='ion-ios-plus-empty hidden-md-up'></i>";
+                                        echo "<ul class='sub-nav'>";
+                                        while($categoria = mysqli_fetch_array($queryRelacao)){
+                                            echo "<li><a href='produtos.php?departamento={$infoDepartamento['ref']}&categoria={$categoria['ref']}'>{$categoria['ref']}</a></li>";
+                                        }
+                                        echo "</ul>";
+                                    echo "</li>";
+                                }
+                                ?>
                                 <li><a href="contato.php">CONTATO</a></li>
                             </ul>
                         </nav>

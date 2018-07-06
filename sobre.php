@@ -1,20 +1,19 @@
-﻿<!DOCTYPE html>
+﻿<?php
+    require_once "@classe-paginas.php";
+    $cls_paginas->set_titulo('Sobre');
+    $cls_paginas->set_descricao('Descrição exemplar!');
+?>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Garden</title>
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,800%7CLato:300,400,700" rel="stylesheet" type="text/css">
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
-        <link href="assets/css/ionicons.css" rel="stylesheet" type="text/css">
-        <link href="assets/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-        <link href="assets/css/flaticon.css" rel="stylesheet" type="text/css">
-
-        <link href="assets/css/style.css" rel="stylesheet">
-    </head>
+        <title><?php echo $cls_paginas->titulo; ?></title>
+        <meta name="description" content="<?php echo $cls_paginas->descricao; ?>">
+        <?php require_once "@link-standard-styles.php"; ?>
+        <?php require_once "@link-important-functions.php"; ?>
+	</head>
     <body>
         <?php
             include "includes/header.php";
@@ -25,7 +24,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="heading-box pb-30">
-                            <h2>Nós somos a <span>Modernize</span></h2>
+                            <h2><span></span> Persianas e Cortinas </h2>
                             <span class="b-line l-left"></span>
                         </div>
                     </div>
@@ -35,33 +34,29 @@
                     <div class="col-md-12 col-lg-6 pb-xs-30">
 
                         <div class="text-content">
-                            <p>
-                                <strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum been sidue industry's standard</strong> </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap int
-                            </p>
+                            <p><strong>Potencializando a felicidade nos ambientes que fazemos e que estamos inseridos.</strong></p>
+                            <p>Somos uma consultoria especializada em soluções para controle térmico e de luminosidade em ambientes residenciais e corporativos.</p>
+                            <p>Para uma entrega de altíssima qualidade, selecionamos os melhores fabricantes do Brasil e um vasto book de produtos, texturas e tonalidades.</p>
+                            <p>Acreditamos que ambientes espontâneos, acolhedores e harmônicos influenciam diretamente na felicidade das pessoas que neles vivem.</p>
+                            <p>Por isso, nossas persianas e cortinas são cuidadosamente produzidas com componentes inovadores, sofisticados, avançados tecnologicamente e que seguem padrões internacionais de qualidade. </p>
                         </div>
-                        <h4>Nossos serviços</h4>
+                        <h4>Valores</h4>
                         <ul class="list">
                             <li>
-                                <i class="ion-android-done-all text-color"> </i> Nós fornecemos serviço de excelência para suas necessidades
+                                <i class="ion-android-done-all text-color"> </i> Alegria nos projetos
                             </li>
                             <li>
-                                <i class="ion-android-done-all text-color"> </i> temos trabalhador experiente
+                                <i class="ion-android-done-all text-color"> </i> Paixão pelas pessoas
                             </li>
                             <li>
-                                <i class="ion-android-done-all text-color"> </i> melhor cuidado com seu produto
+                                <i class="ion-android-done-all text-color"> </i> Excelência na entrega
                             </li>
                             <li>
-                                <i class="ion-android-done-all text-color"> </i> Nós fornecemos serviço de excelência para suas necessidades
+                                <i class="ion-android-done-all text-color"> </i> Integridade nas relações
                             </li>
                             <li>
-                                <i class="ion-android-done-all text-color"> </i> temos trabalhador experiente
+                                <i class="ion-android-done-all text-color"> </i> Sustentabilidade no negócio
                             </li>
-                            <li>
-                                <i class="ion-android-done-all text-color"> </i> temos trabalhador experiente
-                            </li>
-
                         </ul>
 
                     </div>
@@ -78,41 +73,6 @@
 			include "includes/box-time2.php";
             include "includes/footer.php";
         ?>
-        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-        <script type="text/javascript" src="assets/js/tether.min.js"></script>
-        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-        <!-- revolution Js -->
-        <script type="text/javascript" src="assets/js/jquery.themepunch.tools.min.js"></script>
-        <script type="text/javascript" src="assets/js/jquery.themepunch.revolution.min.js"></script>
-        <script type="text/javascript" src="assets/js/revolution.extension.slideanims.min.js"></script>
-        <script type="text/javascript" src="assets/js/revolution.extension.layeranimation.min.js"></script>
-        <script type="text/javascript" src="assets/js/revolution.extension.navigation.min.js"></script>
-        <script type="text/javascript" src="assets/js/revolution.extension.parallax.min.js"></script>
-        <script type="text/javascript" src="assets/js/jquery.revolution.js"></script>
-        <!-- fancybox Js -->
-        <script src="assets/js/jquery.mousewheel-3.0.6.pack.js" type="text/javascript"></script>
-        <script src="assets/js/jquery.fancybox.pack.js" type="text/javascript"></script>
-
-        <!-- masonry,isotope Effect Js -->
-        <script src="assets/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-        <script src="assets/js/isotope.pkgd.min.js" type="text/javascript"></script>
-        <script src="assets/js/masonry.pkgd.min.js" type="text/javascript"></script>
-        <script src="assets/js/jquery.appear.js" type="text/javascript"></script>
-        <!-- parallax Js -->
-        <script src="assets/js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
-        <script src="assets/js/jquery.appear.js" type="text/javascript"></script>
-        <!-- matchHeight Js -->
-        <script src="assets/js/jquery.matchHeight-min.js" type="text/javascript"></script>
-        <!-- carousel Js -->
-        <script src="assets/js/owl.carousel.js" type="text/javascript"></script>
-        <!-- Accordion Js -->
-        <script type="text/javascript" src="assets/js/jquery.accordion.js"></script>
-        <!-- map -->
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-        <script type="text/javascript" src="assets/js/map.js"></script>
-        <script type="text/javascript" src="assets/js/validation.js"></script>
-        <script src="assets/js/custom.js" type="text/javascript"></script>
-
-
     </body>
+    <?php require_once "@link-standard-js.php" ?>
 </html>

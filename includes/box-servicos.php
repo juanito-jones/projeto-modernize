@@ -39,14 +39,14 @@
 								<div class="row">
 
 									<div class="col-lg-11 offset-lg-1 mt-sm-30">
-										<figure><img src="assets/images/service/persiana.jpeg" alt="" />
+										<figure><img src="assets/images/service/persianas-modernize-curitiba.jpg" alt="" />
 										</figure>
 										<div class="service__content_box">
 											<h4>Persianas</h4>
 											<p>
-												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make...
+												Permitem o perfeito controle da luminosidade girando suas lâminas a 180 graus. Ao serem recolhidas acumulam-se no topo ou nas laterais.
 											</p>
-											<a href="#!" class="btn white_btn">Read More</a>
+											<a href="vitrine-servicos.php?departamento=persianas" class="btn white_btn">Saiba mais</a>
 										</div>
 									</div>
 
@@ -57,14 +57,14 @@
 								<div class="row">
 
 									<div class="col-lg-11 offset-lg-1 mt-sm-30">
-										<figure><img src="assets/images/service/persiana.jpeg" alt="" />
+										<figure><img src="assets/images/service/cortinas-modernize-curitiba.jpg" alt="" />
 										</figure>
 										<div class="service__content_box">
 											<h4>Cortinas</h4>
 											<p>
-												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make...
+												As cortinas industriais possuem acionamento similar às persianas. São compostas por tecidos especiais que caracterizam cada modelo.
 											</p>
-											<a href="#!" class="btn white_btn">Read More</a>
+											<a href="vitrine-servicos.php?departamento=cortinas" class="btn white_btn">Saiba mais</a>
 										</div>
 									</div>
 
@@ -75,14 +75,14 @@
 								<div class="row">
 
 									<div class="col-lg-11 offset-lg-1 mt-sm-30">
-										<figure><img src="assets/images/service/persiana.jpeg" alt="" />
+										<figure><img src="assets/images/service/venezianas-modernize-curitiba.jpg" alt="" />
 										</figure>
 										<div class="service__content_box">
 											<h4>Venezianas</h4>
 											<p>
-												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make...
+												Novo projeto de construção? Torne sua casa segura com as venezianas motorizadas.
 											</p>
-											<a href="#!" class="btn white_btn">Read More</a>
+											<a href="vitrine-servicos.php?departamento=venezianas" class="btn white_btn">Saiba mais</a>
 										</div>
 									</div>
 
@@ -92,14 +92,14 @@
 							<div class="service-test plr-20 service-tab-fouth mt-sm-30">
 								<div class="row">
 									<div class="col-lg-11 offset-lg-1 mt-sm-30">
-										<figure><img src="assets/images/service/persiana.jpeg" alt="" />
+										<figure><img src="assets/images/service/ombrelones-modernize-curitiba.jpg" alt="" />
 										</figure>
 										<div class="service__content_box">
 											<h4>Ombrelones</h4>
 											<p>
-												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make...
+												Os dias de sol não serão mais os mesmos! Um conceito inédito de sombra com uma ampla gama de produtos, guarda-sóis em diferentes tamanhos e acabamentos para você aproveitar o melhor do sol com conforto e proteção.
 											</p>
-											<a href="#!" class="btn white_btn">Read More</a>
+											<a href="vitrine-servicos.php?departamento=ombrelones" class="btn white_btn">Saiba mais</a>
 										</div>
 									</div>
 

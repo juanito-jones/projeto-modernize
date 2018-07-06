@@ -29,9 +29,9 @@
         left: 50%;
         transform: translateX(-50%);
     }
-	.texto{
-		height: 100px;
-	}
+    .texto{
+        height: 100px;
+    }
 </style>
 <!-- about -->
 <div class="section-bar padding ptb-xs-40">
@@ -46,24 +46,24 @@
 
         <div class="row">
             <div class="col-lg-6 top_compy mt-xs-30 push-lg-6">
-                <span>Easy Way To Build Websites</span>
-                <h2>Bem-vindo Modernize</h2>
+                <h2>Bem-vindo</h2>
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 's standard dummy text. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum is simply dummy text.
+                    Somos uma consultoria especializada em soluções para controle térmico e de luminosidade em ambientes residenciais e corporativos. 
                 </p>
                 <div class="row mt-30 text-center ">
                     <div class="col-lg-6 col-md-6 compny_point mb-xs-30">
-                       	<img src="assets/images/icon/icone-persiana.png">
-						<a href="vitrine-servicos.php"><h4>Nossa Persiana</h4></a>
+                        <img src="assets/images/icon/icone-persiana.png">
+                        <a href="vitrine-servicos.php?departamento=persianas"><h4>Nossa Persiana</h4></a>
                         <p class="texto">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Acreditamos que ambientes espontâneos, acolhedores e harmônicos influenciam diretamente na felicidade das pessoas que neles vivem. 
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-6 compny_point">
                         <img src="assets/images/icon/tool.png">
                         <a href="sobre.php"><h4>Nossos Serviços</h4></a>
                         <p class="texto">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Para uma entrega de altíssima qualidade, selecionamos os melhores fabricantes do Brasil e um vasto book de produtos, texturas e tonalidades. 
+
                         </p>
                     </div>
 

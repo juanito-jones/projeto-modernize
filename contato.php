@@ -1,23 +1,23 @@
-﻿<!DOCTYPE html>
+﻿<?php
+require_once "@classe-paginas.php";
+$cls_paginas->set_titulo('Contato');
+$cls_paginas->set_descricao('Descrição exemplar!');
+?>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Contato - Modernize</title>
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,800%7CLato:300,400,700" rel="stylesheet" type="text/css">
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
-        <link href="assets/css/ionicons.css" rel="stylesheet" type="text/css">
-        <link href="assets/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-        <link href="assets/css/flaticon.css" rel="stylesheet" type="text/css">
-        <link href="assets/css/style.css" rel="stylesheet">
+        <title><?php echo $cls_paginas->titulo; ?></title>
+        <meta name="description" content="<?php echo $cls_paginas->descricao; ?>">
+        <?php require_once "@link-standard-styles.php"; ?>
+        <?php require_once "@link-important-functions.php"; ?>
     </head>
     <body>
         <?php
-            include "includes/header.php";
-			include "includes/box-breadcrumb-contato.php";
+        include "includes/header.php";
+        include "includes/box-breadcrumb-contato.php";
         ?>
         <!-- Contact Section -->
         <section class="padding ptb-xs-60">
@@ -37,18 +37,16 @@
                     <div class="col-sm-12 contact pb-60 pt-30">
                         <div class="row text-center">
                             <div class="col-sm-4 pb-xs-30">
-                                <i class="ion-android-call icon-circle pos-s"></i><a href="#" class="mt-15 i-block">+55 123-1234</a>
+                                <i class="ion-android-call icon-circle pos-s"></i><a href="#" class="mt-15 i-block">(41) 3328-6554</a>
                             </div>
                             <div class="col-sm-4 pb-xs-30">
                                 <i class="ion-ios-location icon-circle pos-s"></i>
                                 <p  class="mt-15">
-                                    Dr.Roberto Barrozo 1588 Bom Retiro
-                                    <br />
-                                    Ctba PR 80520 070
+                                    Rua Brasilio Itibere, 3723 - Água Verde
                                 </p>
                             </div>
                             <div class="col-sm-4 pb-xs-30">
-                                <i class="ion-ios-email icon-circle pos-s"></i><a href="mailto:falecom@lojadopaisagista.com"  class="mt-15 i-block">falecom@lojadopaisagista.com</a>
+                                <i class="ion-ios-email icon-circle pos-s"></i><a href="mailto:contato@modernizecuritiba.com.br"  class="mt-15 i-block">contato@modernizecuritiba.com.br</a>
                             </div>
                         </div>
                     </div>
@@ -56,50 +54,16 @@
             </div>
             <!-- Map Section -->
             <div class="map">
-                <div id="map"></div>
+                <iframe style="width: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.6094215670832!2d-49.28187468498535!3d-25.451318383778567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce47e6fde4ea3%3A0xdb45b8ba93743511!2sR.+Bras%C3%ADlio+Itiber%C3%AA%2C+3723+-+%C3%81gua+Verde%2C+Curitiba+-+PR%2C+80240-060!5e0!3m2!1spt-BR!2sbr!4v1528469798488" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <!-- Map Section -->
             <?php
-				require_once "includes/box-formulario.php";
-			?>
+            require_once "includes/box-formulario.php";
+            ?>
         </section>
         <?php
-            include "includes/footer.php";
+        include "includes/footer.php";
         ?>
-        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-        <script type="text/javascript" src="assets/js/tether.min.js"></script>
-        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-        <!-- revolution Js -->
-        <script type="text/javascript" src="assets/js/jquery.themepunch.tools.min.js"></script>
-        <script type="text/javascript" src="assets/js/jquery.themepunch.revolution.min.js"></script>
-        <script type="text/javascript" src="assets/js/revolution.extension.slideanims.min.js"></script>
-        <script type="text/javascript" src="assets/js/revolution.extension.layeranimation.min.js"></script>
-        <script type="text/javascript" src="assets/js/revolution.extension.navigation.min.js"></script>
-        <script type="text/javascript" src="assets/js/revolution.extension.parallax.min.js"></script>
-        <script type="text/javascript" src="assets/js/jquery.revolution.js"></script>
-        <!-- fancybox Js -->
-        <script src="assets/js/jquery.mousewheel-3.0.6.pack.js" type="text/javascript"></script>
-        <script src="assets/js/jquery.fancybox.pack.js" type="text/javascript"></script>
-
-        <!-- masonry,isotope Effect Js -->
-        <script src="assets/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-        <script src="assets/js/isotope.pkgd.min.js" type="text/javascript"></script>
-        <script src="assets/js/masonry.pkgd.min.js" type="text/javascript"></script>
-        <script src="assets/js/jquery.appear.js" type="text/javascript"></script>
-        <!-- parallax Js -->
-        <script src="assets/js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
-        <script src="assets/js/jquery.appear.js" type="text/javascript"></script>
-        <!-- matchHeight Js -->
-        <script src="assets/js/jquery.matchHeight-min.js" type="text/javascript"></script>
-        <!-- carousel Js -->
-        <script src="assets/js/owl.carousel.js" type="text/javascript"></script>
-        <!-- Accordion Js -->
-        <script type="text/javascript" src="assets/js/jquery.accordion.js"></script>
-        <!-- map -->
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-        <script type="text/javascript" src="assets/js/map.js"></script>
-        <script type="text/javascript" src="assets/js/validation.js"></script>
-        <script src="assets/js/custom.js" type="text/javascript"></script>
-
     </body>
+    <?php require_once "@link-standard-js.php"; ?>
 </html>
